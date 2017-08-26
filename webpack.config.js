@@ -40,7 +40,8 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true
+    noInfo: true,
+    port: 8888,
   },
   performance: {
     hints: false
